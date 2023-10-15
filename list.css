@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+
+
+}
+.new-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width : 60vw;
+    height: 40px;
+
+}
+
+.task{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60vw;
+    height: 40px;
+    margin: 40px;
+    background-color: darkgray;
+
+}

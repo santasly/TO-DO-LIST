@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO LIST</title>
+    <title>Todo</title>
+    <link rel="stylesheet" href="./list.css">
 </head>
 <body>
-    <h2>MY TODO LIST</h2>
-    <form  id="todo-form">
-        <input type="text" id="todo-item"  placeholder="ENTER A NEW TODO ITEM" name="todo-item">
-        <input type="submit" value="ADD">
-    </form>
+   <div class="main">
+    <div class="top"> 
+        <form class="new-form">
+            <input type="text" class="new-input" id="todoItem" placeholder="Add your to do List">
+            <input  type="submit" value="AddTask" id="task-submit">
+        </form>
+   </div>
 
-    <div class="todoList">
-        <div class="list">
-            <span>Travel</span>
-            <button>Delete</button>
-            <button>Edit</button>
+        <div class="task-list">
+            <h2>Todo list</h2>
+            <div class="tasks">
+                <div class="task">
+                  <span>wash</span>
+                  <button class="edit-btn" >Edit</button>
+                  <button class="delete-btn">Delete</button>
+               </div>
+
+               <div class="task">
+                   <span>clean</span>
+                   <button class="edit-btn" >Edit</button>
+                   <button class="delete-btn">Delete</button>
+                   
+               </div>
+            </div>  
+               
+
+                
+
+              
         </div>
-    </div>
-    
+   </div>
 </body>
+
+<script src="./todo.js">
+
+</script>
 </html>
